@@ -10,28 +10,101 @@
 
         <body>
             <header>
-                Your small friendly local business logo.
+                <img
+                    alt="Raleigh's Restaurant"
+
+                    />
+                    <nav>
+                        <ul>
+                            <li>
+                                Menu
+                            </li>
+                            <li>
+                                Hours
+                            </li>
+                            <li>
+                                Location
+                            </li>
+                        </ul>
+                    </nav>
             </header>
 
-        <div class=""SplashPage">
+            <div class="SplashPage">
 
-            <h1>Put your top headline here.</h1>
+                <h1>Raleigh's Restaurant</h1>
+                <p>Serving up North Carolina's best BBQ since 1969!</p>
 
-            <button id="ScrollButton">Click to Alert</button>
+
+                <button id="ScrollButton">Click to Alert</button>
             </div>
 
-        <footer>
-            Give users what they expect here.
-        </footer>
 
-        <script>
-            consonle.log("Script tags should be placed right before the closing body tag </body>.");
+            <div class="Testimonials">
+                <ul>
+                    <li>
+                        <div>
+                            <p>
+                                "Down-home flavor like Momma used to make"
+                            </p>
+                        </div>
+                    </li>
 
-    document.getElementByID('ScrollButton')addEventlistener('click',function(){
-                                            alert('Clicked');
-            })
+                    <li>
+                        <div>
+                            <p>Barry Sanders</p>
+                            <p>
+                                "finger-licking good!"
+                            </p>
+                        </div>
+                    </li>
 
 
-        </script>
+                    <li>
+                        <div>
+                            <p>Ronald Patel</p>
+                            <p>
+                                "My family goes there every reunion!"
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="Information">
+                <div>
+                    <h3>Hours</h3>
+                    Mon-Fri: 11AM - 9PM
+                    <br />
+                    Saturday: 10AM - 11PM
+                    <br />
+                    Sunday: Closed
+                </div>
+
+                <div>
+                    <h3>Location</h3>
+                    <p>Turn left at Merle's, first dirt road on the left, about three miles in. DO NOT turn right. </p>
+                </div>
+
+                <div>
+                    <h3>Menu</h3>
+                    <p> We fry every edible part of the chicken and serve them up with out signature sauce. Standard sides. </p>
+                </div>
+            </div>
+
+            <footer>
+                <a href="mailto:hello@VeryFakeDomainName123.com">Email us today</a>
+                <span>&copy; 2017</span>
+            </footer>
+
+            <script>
+                console.log("Script tags should be places right before the closing body tag</body>.");
+
+         document.getElementById('ScrollButton').addEventListender('click', function(){
+                alert('Clicked');
+
+             })
+             </script>
         </body>
+    
     </html>
